@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <title>Registrar Pedidos</title>
+</head>
+<body>
+    
+    <div class="container">
+    <h2>Registrar Pedidos</h2>
+    
+        <form id="pedidoForm">
+            <label for="clienteSelecionado">Escolha o Cliente:</label>
+            <select id="clienteSelecionado" required></select>
+            
+            <label for="itemSelecionado">Escolha o Item:</label>
+            <select id="itemSelecionado" required></select>
+            
+            <label for="quantidade">Quantidade:</label>
+            <input type="number" id="quantidade" min="1" required>
+
+            <button type="submit">Registrar Pedido</button>
+        </form>
+
+        <h2>Relatório de Pedidos</h2>
+        <ul id="relatorioPedidos"></ul>
+
+        <nav>
+            <a href="index.html" class="button-back">Voltar para a Tela Inicial</a>
+        </nav>
+
+    </div>
+
+</body>
+</html>

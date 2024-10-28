@@ -1,0 +1,163 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Importar fonte do Google Fonts */
+
+
+/* Estilo geral do corpo */
+body {
+    font-family: 'Roboto', sans-serif; /* Aplicando a nova fonte */
+    background-color: #d6d7d8; /* Cor de fundo*/
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container-centralizada {
+    width: 400px;
+    background: #353535;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #f8f5f5;
+    margin-bottom: 20px;
+}
+
+/*relogio da tela inicial*/
+#dataHora {
+color: #f8f5f5;
+}
+
+/* Container principal */
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #353535;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo dos cabeçalhos */
+h1, h2 {
+    color: #f8f5f5;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilo dos formulários */
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Estilo dos campos de entrada */
+input[type="text"], input[type="number"], select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Botões */
+button {
+    background: #e02a2a;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #fff;
+    color: #e02a2a;
+}
+
+/* Lista de itens e clientes */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #ecf0f1;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilo dos botões */
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo do relatório de pedidos */
+#relatorioPedidos {
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Botões de navegação */
+.button-link {
+    display: inline-block;
+    background: #e02a2a;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px 0;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button-link:hover {
+    background-color: #fff;
+    color: #e02a2a;
+    transform: translateY(-2px);
+}
+
+/* Estilo dos links de voltar como botões */
+.button-back {
+    display: inline-block;
+    background: #e02a2a; /* Azul suave */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px; /* Espaço superior */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button-back:hover {
+    color: #e02a2a;
+    background-color: #fff; /* Tom mais claro ao passar o mouse */
+    transform: translateY(-2px);
+}
+
